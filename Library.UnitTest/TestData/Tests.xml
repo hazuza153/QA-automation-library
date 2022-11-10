@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Library>
+
+  <MyLibryaryTests>
+    <BookStatus>1</BookStatus> <!--  [  InTheLibrary = 0 | Reserved = 1| OutOfTheLibrary = 2| OutOfTheLibraryAndReserved = 3 ]-->-->
+  <BookType>0</BookType>  <!-- adult = 0 --> <!-- child = 1 -->
+    <ReaderType>0</ReaderType>  <!-- adult = 0 --> <!-- child = 1 -->
+    <ExpectedResult>true</ExpectedResult>
+    <ReaderHasBookInReservedList>true</ReaderHasBookInReservedList>
+  </MyLibryaryTests>
+
+  <MyLibryaryTests>
+    <BookStatus>3</BookStatus> <!-- [  InTheLibrary = 0 | Reserved = 1| OutOfTheLibrary = 2| OutOfTheLibraryAndReserved = 3 ]-->-->
+    <BookType>0</BookType>  <!-- adult = 0 --> <!-- child = 1 -->
+    <ReaderType>0</ReaderType>  <!-- adult = 0 --> <!-- child = 1 -->
+    <ExpectedResult>true</ExpectedResult>
+    <ReaderHasBookInReservedList>true</ReaderHasBookInReservedList>
+  </MyLibryaryTests>
+
+  <MyLibryaryTests>
+    <BookStatus>0</BookStatus> <!--  [  InTheLibrary = 0 | Reserved = 1| OutOfTheLibrary = 2| OutOfTheLibraryAndReserved = 3 ]-->-->
+    <BookType>0</BookType>  <!-- adult = 0 --> <!-- child = 1 -->
+    <ReaderType>0</ReaderType>  <!-- adult = 0 --> <!-- child = 1 -->
+    <ExpectedResult>false</ExpectedResult>
+    <ReaderHasBookInReservedList>false</ReaderHasBookInReservedList>
+  </MyLibryaryTests>
+  
+</Library>

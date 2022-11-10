@@ -1,0 +1,7 @@
+C:\Users\hazuz\source\repos\Library\Library\bin\Debug\Library.exe.config
+C:\Users\hazuz\source\repos\Library\Library\bin\Debug\Library.exe
+C:\Users\hazuz\source\repos\Library\Library\bin\Debug\Library.pdb
+C:\Users\hazuz\source\repos\Library\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\hazuz\source\repos\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\hazuz\source\repos\Library\Library\obj\Debug\Library.exe
+C:\Users\hazuz\source\repos\Library\Library\obj\Debug\Library.pdb
